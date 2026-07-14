@@ -1,0 +1,712 @@
+{
+  "profiles": [
+    {
+      "name": "新手 AI (500場)",
+      "trainingIterations": 500,
+      "completedIterations": 500,
+      "createdAt": "2026-07-01 21:43:48",
+      "policy": {
+        "style": "balanced",
+        "completedIterations": 500,
+        "maxBuildsPerTurn": 3,
+        "exploration": 0.0,
+        "mistakeRate": 0.28,
+        "featureWeights": [
+          {
+            "key": "economyNeed",
+            "weight": 0.6662
+          },
+          {
+            "key": "offenseTiming",
+            "weight": 0.7567
+          },
+          {
+            "key": "defenseNeed",
+            "weight": 0.9747
+          },
+          {
+            "key": "reconNeed",
+            "weight": 0.9533
+          },
+          {
+            "key": "spellNeed",
+            "weight": 1.1724
+          },
+          {
+            "key": "collectorRecovery",
+            "weight": 1.0912
+          },
+          {
+            "key": "earlyWall",
+            "weight": 0.9191
+          },
+          {
+            "key": "resourceBalance",
+            "weight": 1.0374
+          },
+          {
+            "key": "attackMomentum",
+            "weight": 1.0267
+          }
+        ],
+        "towerWeights": [
+          {
+            "towerType": 0,
+            "buildWeight": 13.8641,
+            "targetWeight": 10.9333
+          },
+          {
+            "towerType": 1,
+            "buildWeight": 11.2141,
+            "targetWeight": 1.726
+          },
+          {
+            "towerType": 2,
+            "buildWeight": 25.1205,
+            "targetWeight": 1.3976
+          },
+          {
+            "towerType": 3,
+            "buildWeight": 5.8244,
+            "targetWeight": 2.3119
+          },
+          {
+            "towerType": 4,
+            "buildWeight": 4.8162,
+            "targetWeight": 2.2976
+          },
+          {
+            "towerType": 5,
+            "buildWeight": 7.3431,
+            "targetWeight": 10.2545
+          },
+          {
+            "towerType": 6,
+            "buildWeight": 7.0363,
+            "targetWeight": 10.4857
+          },
+          {
+            "towerType": 7,
+            "buildWeight": 4.8046,
+            "targetWeight": 9.3889
+          },
+          {
+            "towerType": 8,
+            "buildWeight": 3.4296,
+            "targetWeight": 2.4401
+          },
+          {
+            "towerType": 9,
+            "buildWeight": 4.3556,
+            "targetWeight": 1.9108
+          },
+          {
+            "towerType": 10,
+            "buildWeight": 5.8746,
+            "targetWeight": 5.9951
+          },
+          {
+            "towerType": 11,
+            "buildWeight": 3.0497,
+            "targetWeight": 6.3797
+          },
+          {
+            "towerType": 12,
+            "buildWeight": 7.2671,
+            "targetWeight": 2.2007
+          }
+        ]
+      }
+    },
+    {
+      "name": "簡單 AI (1000場)",
+      "trainingIterations": 1000,
+      "completedIterations": 1000,
+      "createdAt": "2026-07-01 21:43:48",
+      "policy": {
+        "style": "balanced",
+        "completedIterations": 1000,
+        "maxBuildsPerTurn": 3,
+        "exploration": 0.0,
+        "mistakeRate": 0.2,
+        "featureWeights": [
+          {
+            "key": "economyNeed",
+            "weight": 1.3508
+          },
+          {
+            "key": "offenseTiming",
+            "weight": 0.8425
+          },
+          {
+            "key": "defenseNeed",
+            "weight": 0.8272
+          },
+          {
+            "key": "reconNeed",
+            "weight": 1.552
+          },
+          {
+            "key": "spellNeed",
+            "weight": 0.9302
+          },
+          {
+            "key": "collectorRecovery",
+            "weight": 0.6428
+          },
+          {
+            "key": "earlyWall",
+            "weight": 0.9943
+          },
+          {
+            "key": "resourceBalance",
+            "weight": 1.2888
+          },
+          {
+            "key": "attackMomentum",
+            "weight": 1.068
+          }
+        ],
+        "towerWeights": [
+          {
+            "towerType": 0,
+            "buildWeight": 26.4715,
+            "targetWeight": 30.0
+          },
+          {
+            "towerType": 1,
+            "buildWeight": 8.0345,
+            "targetWeight": 1.7668
+          },
+          {
+            "towerType": 2,
+            "buildWeight": 11.2783,
+            "targetWeight": 1.7591
+          },
+          {
+            "towerType": 3,
+            "buildWeight": 9.2858,
+            "targetWeight": 3.9732
+          },
+          {
+            "towerType": 4,
+            "buildWeight": 3.4917,
+            "targetWeight": 2.5866
+          },
+          {
+            "towerType": 5,
+            "buildWeight": 15.0667,
+            "targetWeight": 9.6068
+          },
+          {
+            "towerType": 6,
+            "buildWeight": 5.8376,
+            "targetWeight": 9.1072
+          },
+          {
+            "towerType": 7,
+            "buildWeight": 9.7411,
+            "targetWeight": 17.0328
+          },
+          {
+            "towerType": 8,
+            "buildWeight": 3.5908,
+            "targetWeight": 1.8522
+          },
+          {
+            "towerType": 9,
+            "buildWeight": 2.6406,
+            "targetWeight": 1.7655
+          },
+          {
+            "towerType": 10,
+            "buildWeight": 2.351,
+            "targetWeight": 4.4153
+          },
+          {
+            "towerType": 11,
+            "buildWeight": 2.2198,
+            "targetWeight": 10.9005
+          },
+          {
+            "towerType": 12,
+            "buildWeight": 3.9905,
+            "targetWeight": 1.4813
+          }
+        ]
+      }
+    },
+    {
+      "name": "普通 AI (10000場)",
+      "trainingIterations": 10000,
+      "completedIterations": 10000,
+      "createdAt": "2026-07-01 21:43:48",
+      "policy": {
+        "style": "balanced",
+        "completedIterations": 10000,
+        "maxBuildsPerTurn": 3,
+        "exploration": 0.0,
+        "mistakeRate": 0.08,
+        "featureWeights": [
+          {
+            "key": "economyNeed",
+            "weight": 0.7891
+          },
+          {
+            "key": "offenseTiming",
+            "weight": 1.2909
+          },
+          {
+            "key": "defenseNeed",
+            "weight": 0.9939
+          },
+          {
+            "key": "reconNeed",
+            "weight": 0.9229
+          },
+          {
+            "key": "spellNeed",
+            "weight": 1.1045
+          },
+          {
+            "key": "collectorRecovery",
+            "weight": 1.0996
+          },
+          {
+            "key": "earlyWall",
+            "weight": 1.3704
+          },
+          {
+            "key": "resourceBalance",
+            "weight": 0.9595
+          },
+          {
+            "key": "attackMomentum",
+            "weight": 1.0933
+          }
+        ],
+        "towerWeights": [
+          {
+            "towerType": 0,
+            "buildWeight": 18.2657,
+            "targetWeight": 23.1331
+          },
+          {
+            "towerType": 1,
+            "buildWeight": 13.3657,
+            "targetWeight": 1.7717
+          },
+          {
+            "towerType": 2,
+            "buildWeight": 9.2851,
+            "targetWeight": 2.7291
+          },
+          {
+            "towerType": 3,
+            "buildWeight": 5.6712,
+            "targetWeight": 1.975
+          },
+          {
+            "towerType": 4,
+            "buildWeight": 5.4309,
+            "targetWeight": 3.1301
+          },
+          {
+            "towerType": 5,
+            "buildWeight": 13.8887,
+            "targetWeight": 6.0883
+          },
+          {
+            "towerType": 6,
+            "buildWeight": 7.3647,
+            "targetWeight": 12.2296
+          },
+          {
+            "towerType": 7,
+            "buildWeight": 5.3112,
+            "targetWeight": 8.3442
+          },
+          {
+            "towerType": 8,
+            "buildWeight": 3.9688,
+            "targetWeight": 1.2116
+          },
+          {
+            "towerType": 9,
+            "buildWeight": 5.3031,
+            "targetWeight": 1.6327
+          },
+          {
+            "towerType": 10,
+            "buildWeight": 5.0024,
+            "targetWeight": 8.936
+          },
+          {
+            "towerType": 11,
+            "buildWeight": 4.5154,
+            "targetWeight": 6.9243
+          },
+          {
+            "towerType": 12,
+            "buildWeight": 6.6273,
+            "targetWeight": 3.3619
+          }
+        ]
+      }
+    },
+    {
+      "name": "困難 AI (100000場)",
+      "trainingIterations": 100000,
+      "completedIterations": 100000,
+      "createdAt": "2026-07-01 21:43:48",
+      "policy": {
+        "style": "balanced",
+        "completedIterations": 100000,
+        "maxBuildsPerTurn": 3,
+        "exploration": 0.0,
+        "mistakeRate": 0.02,
+        "featureWeights": [
+          {
+            "key": "economyNeed",
+            "weight": 0.8009
+          },
+          {
+            "key": "offenseTiming",
+            "weight": 1.1629
+          },
+          {
+            "key": "defenseNeed",
+            "weight": 1.0076
+          },
+          {
+            "key": "reconNeed",
+            "weight": 0.9343
+          },
+          {
+            "key": "spellNeed",
+            "weight": 1.3997
+          },
+          {
+            "key": "collectorRecovery",
+            "weight": 0.7705
+          },
+          {
+            "key": "earlyWall",
+            "weight": 1.0832
+          },
+          {
+            "key": "resourceBalance",
+            "weight": 1.3527
+          },
+          {
+            "key": "attackMomentum",
+            "weight": 1.1486
+          }
+        ],
+        "towerWeights": [
+          {
+            "towerType": 0,
+            "buildWeight": 20.0269,
+            "targetWeight": 17.1908
+          },
+          {
+            "towerType": 1,
+            "buildWeight": 7.0501,
+            "targetWeight": 2.7683
+          },
+          {
+            "towerType": 2,
+            "buildWeight": 12.5929,
+            "targetWeight": 2.0393
+          },
+          {
+            "towerType": 3,
+            "buildWeight": 7.616,
+            "targetWeight": 1.9327
+          },
+          {
+            "towerType": 4,
+            "buildWeight": 4.6067,
+            "targetWeight": 1.4939
+          },
+          {
+            "towerType": 5,
+            "buildWeight": 11.5832,
+            "targetWeight": 8.977
+          },
+          {
+            "towerType": 6,
+            "buildWeight": 6.6209,
+            "targetWeight": 8.9041
+          },
+          {
+            "towerType": 7,
+            "buildWeight": 3.8829,
+            "targetWeight": 9.6708
+          },
+          {
+            "towerType": 8,
+            "buildWeight": 5.4641,
+            "targetWeight": 1.7967
+          },
+          {
+            "towerType": 9,
+            "buildWeight": 3.6612,
+            "targetWeight": 1.9379
+          },
+          {
+            "towerType": 10,
+            "buildWeight": 5.7832,
+            "targetWeight": 7.5571
+          },
+          {
+            "towerType": 11,
+            "buildWeight": 2.7675,
+            "targetWeight": 7.8081
+          },
+          {
+            "towerType": 12,
+            "buildWeight": 12.3444,
+            "targetWeight": 2.6785
+          }
+        ]
+      }
+    },
+    {
+      "name": "專家 AI (300000場)",
+      "trainingIterations": 300000,
+      "completedIterations": 300000,
+      "createdAt": "2026-07-01 21:43:48",
+      "policy": {
+        "style": "balanced",
+        "completedIterations": 300000,
+        "maxBuildsPerTurn": 3,
+        "exploration": 0.0,
+        "mistakeRate": 0.02,
+        "featureWeights": [
+          {
+            "key": "economyNeed",
+            "weight": 1.0737
+          },
+          {
+            "key": "offenseTiming",
+            "weight": 1.2096
+          },
+          {
+            "key": "defenseNeed",
+            "weight": 1.1498
+          },
+          {
+            "key": "reconNeed",
+            "weight": 0.8496
+          },
+          {
+            "key": "spellNeed",
+            "weight": 1.1082
+          },
+          {
+            "key": "collectorRecovery",
+            "weight": 1.1685
+          },
+          {
+            "key": "earlyWall",
+            "weight": 0.9035
+          },
+          {
+            "key": "resourceBalance",
+            "weight": 1.0164
+          },
+          {
+            "key": "attackMomentum",
+            "weight": 0.8841
+          }
+        ],
+        "towerWeights": [
+          {
+            "towerType": 0,
+            "buildWeight": 22.581,
+            "targetWeight": 21.9158
+          },
+          {
+            "towerType": 1,
+            "buildWeight": 9.2723,
+            "targetWeight": 1.2518
+          },
+          {
+            "towerType": 2,
+            "buildWeight": 12.4916,
+            "targetWeight": 0.7387
+          },
+          {
+            "towerType": 3,
+            "buildWeight": 7.1904,
+            "targetWeight": 2.0674
+          },
+          {
+            "towerType": 4,
+            "buildWeight": 8.5136,
+            "targetWeight": 1.686
+          },
+          {
+            "towerType": 5,
+            "buildWeight": 10.3458,
+            "targetWeight": 7.0282
+          },
+          {
+            "towerType": 6,
+            "buildWeight": 9.5792,
+            "targetWeight": 9.0982
+          },
+          {
+            "towerType": 7,
+            "buildWeight": 3.3377,
+            "targetWeight": 11.896
+          },
+          {
+            "towerType": 8,
+            "buildWeight": 5.089,
+            "targetWeight": 2.0896
+          },
+          {
+            "towerType": 9,
+            "buildWeight": 2.711,
+            "targetWeight": 2.601
+          },
+          {
+            "towerType": 10,
+            "buildWeight": 4.6087,
+            "targetWeight": 5.8417
+          },
+          {
+            "towerType": 11,
+            "buildWeight": 1.8219,
+            "targetWeight": 5.9778
+          },
+          {
+            "towerType": 12,
+            "buildWeight": 6.458,
+            "targetWeight": 2.854
+          }
+        ]
+      }
+    },
+    {
+      "name": "大師 AI (1000000場)",
+      "trainingIterations": 1000000,
+      "completedIterations": 1000000,
+      "createdAt": "2026-07-01 21:43:48",
+      "policy": {
+        "style": "balanced",
+        "completedIterations": 1000000,
+        "maxBuildsPerTurn": 3,
+        "exploration": 0.0,
+        "mistakeRate": 0.02,
+        "featureWeights": [
+          {
+            "key": "economyNeed",
+            "weight": 0.8389
+          },
+          {
+            "key": "offenseTiming",
+            "weight": 1.0352
+          },
+          {
+            "key": "defenseNeed",
+            "weight": 0.938
+          },
+          {
+            "key": "reconNeed",
+            "weight": 0.7845
+          },
+          {
+            "key": "spellNeed",
+            "weight": 0.8867
+          },
+          {
+            "key": "collectorRecovery",
+            "weight": 1.2146
+          },
+          {
+            "key": "earlyWall",
+            "weight": 1.0572
+          },
+          {
+            "key": "resourceBalance",
+            "weight": 0.9649
+          },
+          {
+            "key": "attackMomentum",
+            "weight": 0.961
+          }
+        ],
+        "towerWeights": [
+          {
+            "towerType": 0,
+            "buildWeight": 16.0638,
+            "targetWeight": 12.1413
+          },
+          {
+            "towerType": 1,
+            "buildWeight": 6.7273,
+            "targetWeight": 2.0639
+          },
+          {
+            "towerType": 2,
+            "buildWeight": 10.3054,
+            "targetWeight": 2.1788
+          },
+          {
+            "towerType": 3,
+            "buildWeight": 11.4641,
+            "targetWeight": 2.0643
+          },
+          {
+            "towerType": 4,
+            "buildWeight": 5.0629,
+            "targetWeight": 1.2225
+          },
+          {
+            "towerType": 5,
+            "buildWeight": 16.4114,
+            "targetWeight": 5.9035
+          },
+          {
+            "towerType": 6,
+            "buildWeight": 8.8676,
+            "targetWeight": 10.3335
+          },
+          {
+            "towerType": 7,
+            "buildWeight": 6.103,
+            "targetWeight": 7.8348
+          },
+          {
+            "towerType": 8,
+            "buildWeight": 3.4751,
+            "targetWeight": 2.1629
+          },
+          {
+            "towerType": 9,
+            "buildWeight": 4.4458,
+            "targetWeight": 2.3471
+          },
+          {
+            "towerType": 10,
+            "buildWeight": 6.6709,
+            "targetWeight": 5.7053
+          },
+          {
+            "towerType": 11,
+            "buildWeight": 1.6709,
+            "targetWeight": 6.5335
+          },
+          {
+            "towerType": 12,
+            "buildWeight": 6.7317,
+            "targetWeight": 2.5149
+          }
+        ]
+      }
+    }
+  ]
+}

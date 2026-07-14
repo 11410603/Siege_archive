@@ -1,0 +1,7 @@
+{
+  "useNeuralModel": true,
+  "debugDecisionLog": false,
+  "decisionLogLimitPerTurn": 12,
+  "deterministicMode": false,
+  "randomSeed": 20260628
+}
